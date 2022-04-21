@@ -4,7 +4,9 @@ Write a function called insertShiftArray which takes in an array and a value to 
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-<img src="2022-04-19_23-18-04.png">
+<img src="./array_shift_white_board.jpeg">
+
 ## Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
-in progress
+
+Im still learning how to write code that I come up with. So this was hard for me to wrap my head around. I went back to my solo learning and found an vanilla way of writing the code that could initially get the job done. I used **len** to find the lenghth of the array and then divided it by two. Then on the same method I used **int** to convert it to a whole number. Finally I used the **insert** method to change the original array and insert the new value to the middle of the array.
