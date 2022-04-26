@@ -73,3 +73,13 @@ def test_includes_false():
     linked_list.insert("banana")
 
     assert not linked_list.includes("cucumber")
+
+    # @pytest.mark.skip("TODO")
+def test_appends_list():
+     linked_list = LinkedList()
+
+     linked_list.insert("apple")
+
+     linked_list.append("banana")
+
+     assert linked_list.includes("apple","banana" )
