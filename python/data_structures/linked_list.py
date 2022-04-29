@@ -44,7 +44,7 @@ Can properly return a collection of all the values that exist in the linked list
     adds a new node with the given value to the end of the list
     '''
 
-    def append(self, new_value):
+    def append(self, value, new_value):
         new_node = Node(new_value)
         saved_value = self.head
         while saved_value.next is not None:
@@ -55,10 +55,16 @@ Can properly return a collection of all the values that exist in the linked list
     arguments: value, new value
     adds a new node with the given new value immediately before the first node that has the value specified
     '''
-    def insert_before(self, new_value):
+    def insert_before(self, value, new_value):
         new_node = Node(new_value)
-        new_node.next = self.head
+        saved_value = self.head
         self.head = new_node
+        while self.head.next is not None:
+            counter += 1
+
+            saved_value = saved_value.next
+        saved_value.next = new_node
+
 
 
     '''
