@@ -13,7 +13,6 @@ Can properly return a collection of all the values that exist in the linked list
         # initialization here
         self.value = None
         self.head = None
-        self.tail = None
 
     def __str__(self):
         string = ""
@@ -100,32 +99,34 @@ Can properly return a collection of all the values that exist in the linked list
 
 
 
-    def kth_from_end(self, k):
+    def kth_from_end(self, k=0):
         '''
            kth from end
            argument: a number, k, as a parameter.
            Return the node’s value that is k places from the tail of the linked list.
            You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
            '''
-        temp = self.head
-
+        current = self.head
         length = 0
-        while temp is not None:
-            temp = temp.next
-            length += 1
-        if k < length:
+
+        while current:
+            current = current.next
+            length =  length +1
+        if k >= length:
+            raise TargetError
+        if k < 0:
             raise TargetError
 
-        temp = self.head
-        for i in range(0, length - k):
-            temp = temp.next
-            print(temp.data)
+        for i in range(length - k - 1):
+            current = current.next
+
+        return current.value
 
 
 class Node:
-    def __init__(self, value, next=None):
+    def __init__(self, value, next_=None):
         self.value = value
-        self.next = next
+        self.next = next_
 
 
 class TargetError(Exception):
