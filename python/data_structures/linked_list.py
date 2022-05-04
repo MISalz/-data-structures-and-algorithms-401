@@ -99,7 +99,7 @@ Can properly return a collection of all the values that exist in the linked list
 
 
 
-    def kth_from_end(self, k=0):
+    def kth_from_end(self,value, k=0):
         '''
            kth from end
            argument: a number, k, as a parameter.
