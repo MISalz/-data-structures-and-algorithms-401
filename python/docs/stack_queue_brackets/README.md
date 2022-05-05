@@ -1,4 +1,4 @@
-challenge 13
+Challenge 13-  Stack and Queue Brackets
 # Challenge Summary
 <!-- Description of the challenge -->
 Write a function called validate brackets
