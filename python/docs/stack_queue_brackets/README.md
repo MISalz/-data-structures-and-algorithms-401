@@ -8,6 +8,7 @@ representing whether or not the brackets in the string are balanced
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
+<img src="Stack-Queue-brackets.jpeg">
 
 
 ## Approach & Efficiency
