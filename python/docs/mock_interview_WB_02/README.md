@@ -22,4 +22,5 @@ Reversing the Linked List, and checking for equality of the reversed part.<br>
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
-
+<embed src="MichelleS_Whiteboard_Interview2.pdf" type="application/pdf">
+<object data="MichelleS_Whiteboard_Interview2.pdf" type="application/pdf"></object>
