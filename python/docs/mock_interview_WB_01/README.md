@@ -23,3 +23,5 @@ There is also an O(1) solution, based on a mathematical formula… Not likely an
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
+<embed src="MichelleS_Whiteboard_Interview1.pdf" type="application/pdf">
+<object data="MichelleS_Whiteboard_Interview1.pdf" type="application/pdf"></object>
