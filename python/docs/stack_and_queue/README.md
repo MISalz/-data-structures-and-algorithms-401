@@ -1,5 +1,4 @@
 
-Documentation: Your README.md
 # Challenge Summary
 <!-- Description of the challenge -->
 

@@ -1,3 +1,4 @@
+challenge 13
 # Challenge Summary
 <!-- Description of the challenge -->
 Write a function called validate brackets
