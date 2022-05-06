@@ -21,7 +21,20 @@ Michelle Salazar
 |DSAA11 Stack-and-Queue-Pseudo|[SQ](https://github.com/MISalz/data-structures-and-algorithms-401/tree/main/python/docs/stack_queue_pseudo)
 |DSAA12 Stack-and-Queue-AnimalShelter|[SQAS](https://github.com/MISalz/data-structures-and-algorithms-401/tree/main/python/docs/stack_queue_animal_shelter)
 |DSAA13 Stack-and-Queue-Brackets|[SQB](https://github.com/MISalz/data-structures-and-algorithms-401/tree/main/python/docs/stack_queue_brackets)
-|DSAA14||
+|DSAA14 MockInterviews|[WB](https://github.com/MISalz/data-structures-and-algorithms-401/blob/main/python/docs/mock_interview_WB_03/README.md)|
 |DSAA15||
 |DSAA16||
 |DSAA17||
+|DSAA18||
+|DSAA19||
+|DSAA20||
+|DSAA21||
+|DSAA22||
+|DSAA23||
+|DSAA24||
+|DSAA25||
+|DSAA26||
+|DSAA27||
+|DSAA28||
+|DSAA29||
+|DSAA30||
