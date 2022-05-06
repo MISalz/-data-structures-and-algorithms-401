@@ -1,5 +1,5 @@
 Code Challenge 14 - Mock interview
-Interviewer Nicolas Mercado
+Interviewer Katrina Hill, Ella Svete
 
 # Challenge Summary
 <!-- Description of the challenge -->
