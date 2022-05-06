@@ -15,5 +15,5 @@ Write a function calledDuckDuckGoose()that accepts some strings and an int k. St
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
-<img src="2022-05-05_19-10-06.jpg">
+<img src="2022-05-05_19-10-06_2.jpg">
 
