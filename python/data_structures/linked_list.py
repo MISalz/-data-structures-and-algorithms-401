@@ -11,48 +11,44 @@ Can properly return a collection of all the values that exist in the linked list
 
     def __init__(self):
         # initialization here
-        self.value = None
         self.head = None
 
     def __str__(self):
         string = ""
-        if self.head is None:
-            return 'NULL'
         current = self.head
 
         while current:
-            string += f"{{ {current.value} }} -> "
+            string += f"{{ {str(current.value)} }} -> "
             current = current.next
-        string += 'NULL'
-        return string
+        return string + "Null"
 
     def insert(self, value):
         self.head = Node(value, self.head)
-        self.value = str(value)
 
-    def includes(self, target_value):
+    def includes(self, value):
         current = self.head
         while current:
-            if current.value == target_value:
+            if current.value == value:
                 return True
             current = current.next
         return False
 
-    def append(self, value):
+    def append(self, new_value):
         '''
         append
         arguments: new value
         adds a new node with the given value to the end of the list
         '''
-        new_node = Node(value)
+        new_node = Node(new_value)
         if self.head is None:
             self.head = new_node
             return
+
         last_node = self.head
+
         while last_node.next:
             last_node = last_node.next
         last_node.next = new_node
-
 
     def insert_before(self, value, new_value):
         '''
@@ -60,18 +56,19 @@ Can properly return a collection of all the values that exist in the linked list
            arguments: value, new value
            adds a new node with the given new value immediately before the first node that has the value specified
            '''
+        new_node = Node(new_value)
+        current = self.head
+
         if self.head is None:
             raise TargetError
         if self.includes(value) is False:
             raise TargetError
 
-        new_node = Node(new_value)
-        current = self.head
         if current.value is value:
             new_node.next = self.head
             self.head = new_node
 
-        while current.next is not None:
+        while current.next:
             if current.next.value is value:
                 new_node.next = current.next
                 current.next = new_node
@@ -85,21 +82,24 @@ Can properly return a collection of all the values that exist in the linked list
            arguments: value, new value
            adds a new node with the given new value immediately after the first node that has the value specified
            '''
+        new_node = Node(new_value)
         current = self.head
+
         if self.head is None:
             raise TargetError
+
         if self.includes(value) is False:
             raise TargetError
-        while current.next is not None:
+
+        while current:
             if current.value is value:
-                current.next = Node(new_value, current.next)
+                new_node.next = current.next
+                current.next = new_node
                 break
             else:
                 current = current.next
 
-
-
-    def kth_from_end(self, k=0):
+    def kth_from_end(self, k):
         '''
            kth from end
            argument: a number, k, as a parameter.
@@ -111,17 +111,19 @@ Can properly return a collection of all the values that exist in the linked list
 
         while current:
             current = current.next
-            length =  length +1
+            length = length + 1
+
         if k >= length:
             raise TargetError
         if k < 0:
             raise TargetError
 
+        current = self.head
+
         for i in range(length - k - 1):
             current = current.next
 
         return current.value
-
 
 class Node:
     def __init__(self, value, next_=None):
@@ -130,4 +132,4 @@ class Node:
 
 
 class TargetError(Exception):
-    print("That's wrong")
+    pass
