@@ -1,4 +1,4 @@
-## Lab05- Linked List
+## CodeChallenge05- Linked List
 
 ---
 
@@ -25,8 +25,10 @@ Create a Node class that has properties for the value stored in the Node, and a 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
+My approach was to follow what had been done in class.
 Time: 0(1)
 Space: O(n)
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
+pytest
