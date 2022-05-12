@@ -125,6 +125,8 @@ Can properly return a collection of all the values that exist in the linked list
 
         return current.value
 
+
+
 class Node:
     def __init__(self, value, next_=None):
         self.value = value
