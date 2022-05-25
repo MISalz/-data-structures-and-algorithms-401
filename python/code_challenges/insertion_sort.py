@@ -21,5 +21,5 @@ def insertion_sort(num_arr):
 
   return num_arr
 
-insertion_sort(num_arr)
+
 
