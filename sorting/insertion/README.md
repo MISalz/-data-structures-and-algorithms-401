@@ -1,1 +1,16 @@
 # Blog Notes: Insertion Sort
+
+# Challenge Summary
+<!-- Description of the challenge -->
+Review the pseudocode below, then trace the algorithm by stepping through the process with the provided sample array. Document your explanation by creating a blog article that shows the step-by-step output after each iteration through some sort of visual.
+
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+[sorted_list blog](https://github.com/MISalz/data-structures-and-algorithms-401/blob/main/sorting/insertion/blog.md)
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+
+## Solution
+<!-- Show how to run your code, and examples of it in action -->
