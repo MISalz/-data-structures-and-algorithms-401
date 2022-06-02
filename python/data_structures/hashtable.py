@@ -3,6 +3,7 @@ from data_structures.linked_list import LinkedList
 
 class Hashtable:
     """
+    CC30
     set
     Arguments: key, value
     Returns: nothing
@@ -69,7 +70,7 @@ class Hashtable:
 
     def keys(self):
         key_collection = set()
-        
+
         for bucket in self.buckets:
             if bucket is not None:
                 current = bucket.head
