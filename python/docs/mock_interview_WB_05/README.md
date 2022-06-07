@@ -14,8 +14,8 @@ This solution is of an O(n) time and O(n) space
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-<img src="python/docs/mock_interview_WB_05/2022-06-02_19-43-26.jpg">
-<img src="python/docs/mock_interview_WB_05/WB_CC34.jpeg">
+<img src="2022-06-02_19-43-26.jpg">
+<img src="WB_CC34.jpeg">
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
