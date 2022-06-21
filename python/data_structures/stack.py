@@ -36,7 +36,6 @@ class Stack:
         self.top = self.top.next
         return temp.value
 
-
     def peek(self):
         '''peek
         Arguments: none

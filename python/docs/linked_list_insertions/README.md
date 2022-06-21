@@ -22,7 +22,7 @@ Write the following methods for the Linked List class:
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![lab06WB](WB_Roger_collab lab06.png)
+<img src="WB_Roger_collab lab06 2.png">
 **COLLAB with Roger Wells
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->

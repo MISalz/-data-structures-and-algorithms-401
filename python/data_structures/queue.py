@@ -14,7 +14,8 @@ class Queue:
         self.front = None
 
     def enqueue(self, value):
-        '''enqueue
+        '''
+        enqueue
         Arguments: value
         adds a new node with that value to the back of the queue with an O(1) Time performance.'''
         node = Node(value)
@@ -24,7 +25,6 @@ class Queue:
         self.rear = node
         if not self.front:
             self.front = self.rear
-
 
     def dequeue(self):
         '''

@@ -50,6 +50,15 @@ size
     def get_neighbors(self, vertex):
         return self._adjacency_list[vertex]
 
+    def breadth_first(self, vertex):
+        '''
+        Arguments: Node
+        Return: A collection of nodes in the order they were visited.
+        Display the collection
+        '''
+
+        pass
+
 
 class Vertex:
     def __init__(self,value):
