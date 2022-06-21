@@ -34,7 +34,7 @@ Michelle Salazar
 |DSAA24|Midterms|
 |DSAA25|Midterms|
 |DSAA26 Merge Sort|[ms](https://github.com/MISalz/data-structures-and-algorithms-401/blob/main/sorting/insertion/README.md)|
-|DSAA27 Roman Numberals|[rm](https://github.com/MISalz/data-structures-and-algorithms-401/blob/main/python/code_challenges/roman_numerals.py)|
+|DSAA27 Roman Numerals|[rm](https://github.com/MISalz/data-structures-and-algorithms-401/blob/main/python/code_challenges/roman_numerals.py)|
 |DSAA28||
 |DSAA29||
 |DSAA30||
